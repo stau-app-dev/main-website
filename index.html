@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link href="assets/css/common.css" rel="stylesheet" />
 
-    <link href="assets/css/common.css" rel="stylesheet">
+        <title>St Augustine CHS App</title>
+    </head>
 
-    <title>St Augustine CHS App</title>
-</head>
-
-<body>
-    <div class="row">
-        <div class="col-12 col-lg-2 order-first">
-            <!-- Sidebar -->
-            <div class="col-12">
-                <!-- Info -->
-                Info
+    <body>
+        <div class="row">
+            <div class="col-12 col-lg-2 order-first">
+                <!-- Sidebar -->
+                <div class="col-12">
+                    <!-- Info -->
+                    Info
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-lg-4 order-last order-lg-2 row p-4">
-          <div class="bg-white p-4">
-            <!-- Weather/Tweets -->
-            <div class="col-12 order-last order-lg-first">
-                <!-- Weather -->
+            <div class="col-12 col-lg-4 order-last order-lg-2 row p-4">
+                <!-- Weather/Tweets -->
+                <div class="col-12 order-last order-lg-first bg-white p-4 mb-2">
+                    <!-- Weather -->
                     <a
                         class="weatherwidget-io"
                         href="https://forecast7.com/en/43d86n79d34/markham/"
@@ -35,36 +37,44 @@
                         data-theme="original"
                         >MARKHAM WEATHER</a
                     >
-            </div>
-            <div class="col-12 order-first order-lg-last">
-                <!-- Tweets -->
-                <a class="twitter-timeline" data-height="500"
-                    href="https://twitter.com/STAUpdates?ref_src=twsrc%5Etfw">Tweets by STAUpdates</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 order-2 order-lg-last row p-4">
-            <div class="bg-white p-4">
-                <!-- Video/Announcements -->
-                <div class="col-12 order-last order-lg-first text-center align-items-center">
-                    <!-- Video -->
-                    <img src="assets/img/image.png" class="img-fluid" alt="placeholder">
-
                 </div>
-                <div class="col-12 order-first order-lg-last">
+                <div class="col-12 order-first order-lg-last bg-white p-4 mt-2">
+                    <!-- Tweets -->
+                    <a
+                        class="twitter-timeline"
+                        data-height="500"
+                        href="https://twitter.com/STAUpdates?ref_src=twsrc%5Etfw"
+                        >Tweets by STAUpdates</a
+                    >
+                    <script
+                        async
+                        src="https://platform.twitter.com/widgets.js"
+                        charset="utf-8"
+                    ></script>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 order-2 order-lg-last row p-4">
+                <!-- Video/Announcements -->
+                <div
+                    class="
+                        col-12
+                        order-last order-lg-first
+                        text-center
+                        align-items-center
+                        bg-white
+                        p-4
+                        mb-2
+                    "
+                >
+                    <!-- Video -->
+                    <img src="assets/img/image.png" class="img-fluid" alt="placeholder" />
+                </div>
+                <div class="col-12 order-first order-lg-last bg-white p-4 mt-2">
                     <!-- Announcements -->
                     Announcements
                 </div>
             </div>
-
         </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
