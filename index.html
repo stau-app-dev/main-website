@@ -11,10 +11,7 @@
             crossorigin="anonymous"
         />
 
-        <link 
-            href = "assets/css/common.css"
-            rel="stylesheet"
-        >
+        <link href="assets/css/common.css" rel="stylesheet" />
 
         <title>St Augustine CHS App</title>
     </head>
@@ -36,6 +33,14 @@
                 <div class="col-12 order-last order-lg-first">
                     <!-- Weather -->
                     Weather
+                    <a
+                        class="weatherwidget-io"
+                        href="https://forecast7.com/en/43d86n79d34/markham/"
+                        data-label_1="MARKHAM"
+                        data-label_2="WEATHER"
+                        data-theme="original"
+                        >MARKHAM WEATHER</a
+                    >
                 </div>
                 <div class="col-12 order-first order-lg-last">
                     <!-- Tweets -->
@@ -60,5 +65,17 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
+        <script>
+            !(function (d, s, id) {
+                var js,
+                    fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            })(document, 'script', 'weatherwidget-io-js');
+        </script>
     </body>
 </html>
