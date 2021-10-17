@@ -21,16 +21,20 @@
                 <!-- Info -->
                 Info
             </div>
-            <div class="col-12 d-none d-lg-flex">
-                <!-- Navbar -->
-                Navigation
-            </div>
         </div>
-        <div class="col-12 col-lg-4 order-last order-lg-2 row">
+        <div class="col-12 col-lg-4 order-last order-lg-2 row p-4">
+          <div class="bg-white p-4">
             <!-- Weather/Tweets -->
             <div class="col-12 order-last order-lg-first">
                 <!-- Weather -->
-                Weather
+                    <a
+                        class="weatherwidget-io"
+                        href="https://forecast7.com/en/43d86n79d34/markham/"
+                        data-label_1="MARKHAM"
+                        data-label_2="WEATHER"
+                        data-theme="original"
+                        >MARKHAM WEATHER</a
+                    >
             </div>
             <div class="col-12 order-first order-lg-last">
                 <!-- Tweets -->
@@ -38,6 +42,7 @@
                     href="https://twitter.com/STAUpdates?ref_src=twsrc%5Etfw">Tweets by STAUpdates</a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
+          </div>
         </div>
         <div class="col-12 col-lg-6 order-2 order-lg-last row p-4">
             <div class="bg-white p-4">
@@ -93,4 +98,22 @@
         crossorigin="anonymous"></script>
 </body>
 
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            !(function (d, s, id) {
+                var js,
+                    fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            })(document, 'script', 'weatherwidget-io-js');
+        </script>
+    </body>
 </html>
