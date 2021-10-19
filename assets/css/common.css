@@ -9,7 +9,7 @@ body {
 
 .announcements-text {
     color: #8d122f;
-    text-align: center;
+    font-weight: 600;
 }
 .video-container {
     position: relative;
@@ -27,4 +27,23 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.carousel .carousel-indicators button {
+    background-color: #c4c4c4;
+    height: 10px;
+    border-radius: 12px;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #8d122f;
+}
+
+.carousel .carousel-inner .carousel-item {
+    visibility: hidden;
+    margin-bottom: 5rem;
+}
+
+.carousel .carousel-inner .carousel-item.active {
+    visibility: visible;
 }

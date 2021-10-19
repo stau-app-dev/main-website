@@ -76,86 +76,64 @@
                 </div>
                 <div class="col-12 order-first order-lg-last infobox p-4 mb-2 mt-lg-2">
                     <!-- Announcements -->
-                    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                        <img
+                            src="./assets/img/image 1.png"
+                            class="d-block"
+                            width="100"
+                            alt="Announcements"
+                        />
                         <div class="carousel-indicators">
                             <button
                                 type="button"
-                                data-bs-target="#carouselIndicators"
+                                data-bs-target="#carousel"
                                 data-bs-slide-to="0"
-                                class="active"
+                                class="active w-100"
                                 aria-current="true"
                                 aria-label="Slide 1"
                             ></button>
                             <button
                                 type="button"
-                                data-bs-target="#carouselIndicators"
+                                data-bs-target="#carousel"
                                 data-bs-slide-to="1"
+                                class="w-100"
                                 aria-label="Slide 2"
                             ></button>
                             <button
                                 type="button"
-                                data-bs-target="#carouselIndicators"
+                                data-bs-target="#carousel"
                                 data-bs-slide-to="2"
+                                class="w-100"
                                 aria-label="Slide 3"
                             ></button>
                         </div>
                         <div class="carousel-inner">
-                            <img
-                                src="./assets/img/image 1.png"
-                                class="d-block"
-                                width="100"
-                                alt="..."
-                            />
-                            <div class="carousel-item active">
-                                <!-- <img src="./assets/img/image.png" class="d-block w-100" alt="..." /> -->
-                                <h1 class="announcements-text fs-3">
+                            <div class="carousel-item active px-5 d-block">
+                                <h3 class="announcements-text fs-3">
                                     STA "Book of Awesome" is a reminder that we all need from time
                                     to time of the little things that make life AWESOME.
                                     (https://sites.google.com/ycdsb.ca/sta-book-of-awesome/home)
-                                </h1>
+                                </h3>
                             </div>
-                            <div class="carousel-item">
-                                <h1 class="announcements-text fs-3">
+                            <div class="carousel-item px-5 d-block">
+                                <h3 class="announcements-text fs-3">
                                     It had been her dream for years but Dana had failed to take any
                                     action toward making it come true. There had always been a good
                                     excuse to delay or prioritize another project. As she woke, she
                                     realized she was once again at a crossroads. Would it be another
                                     excuse or would she finally find the courage to pursue her
-                                    dream? Dana rose and took her first step. fdskjfsauodhfil
-                                    ujassafdljdsfjl fdsalkjfh jasdklfh lakjsdfh ljkasd fdsjkla
-                                    fhkldjsafh ajisldf sladjkf kasjdl fsajkdfh askdjfha sdkjlfhas
-                                    djkl fasdljkf hasjklf hasdjklf hasdjklfh asdkjlfh asdklj
-                                    fhdaskjl fhsdajk fhsaklj hfjkdlsa hfjkasd fhasdkjf hasld
-                                </h1>
+                                    dream? Dana rose and took her first step.
+                                </h3>
                             </div>
-                            <div class="carousel-item">
-                                <h1 class="announcements-text fs-3">
+                            <div class="carousel-item px-5 d-block">
+                                <h3 class="announcements-text fs-3">
                                     You know that tingly feeling you get on the back of your neck
                                     sometimes? I just got that feeling when talking with her. You
                                     know I don't believe in sixth senses, but there is something not
                                     right with her. I don't know how I know, but I just do.
-                                </h1>
-                                "
+                                </h3>
                             </div>
                         </div>
-                        <button
-                            class="carousel-control-prev"
-                            type="button"
-                            data-bs-target="#carouselIndicators"
-                            data-bs-slide="prev"
-                        >
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button
-                            class="carousel-control-next"
-                            type="button"
-                            data-bs-target="#carouselIndicators"
-                            data-bs-slide="next"
-                        >
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
@@ -166,34 +144,6 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
-        <script type="text/javascript">
-            (function matchHeight() {
-                //Grab divs with the class name 'match-height'
-                var getDivs = document.getElementsByClassName('carousel-item');
-
-                //Find out how my divs there are with the class 'match-height'
-                var arrayLength = getDivs.length;
-                var heights = [];
-
-                //Create a loop that iterates through the getDivs variable and pushes the heights of the divs into an empty array
-                for (var i = 0; i < arrayLength; i++) {
-                    heights.push(getDivs[i].offsetHeight);
-                }
-
-                //Find the largest of the divs
-                function getHighest() {
-                    return Math.max(...heights);
-                }
-
-                //Set a variable equal to the tallest div
-                var tallest = getHighest();
-
-                //Iterate through getDivs and set all their height style equal to the tallest variable
-                for (var i = 0; i < getDivs.length; i++) {
-                    getDivs[i].style.height = tallest + 'px';
-                }
-            })();
-        </script>
         <script>
             !(function (d, s, id) {
                 var js,
