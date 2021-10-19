@@ -6,3 +6,8 @@ body {
     background: white;
     border-radius: 15px;
 }
+
+.announcements-text {
+    color: #8d122f;
+    text-align: center;
+}
