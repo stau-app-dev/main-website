@@ -18,14 +18,14 @@
 
     <body>
         <div class="row m-0">
-            <div class="col-12 col-lg-2 order-first row m-0">
+            <div class="col-12 col-lg-2 order-first">
                 <!-- Sidebar -->
                 <div class="col-12">
                     <!-- Info -->
                     Info
                 </div>
             </div>
-            <div class="col-12 col-lg-4 order-last order-lg-2 row m-0">
+            <div class="col-12 col-lg-4 order-last order-lg-2 d-flex flex-column">
                 <!-- Weather/Tweets -->
                 <div class="col-12 order-last order-lg-first infobox p-4 mt-2 mb-lg-2">
                     <!-- Weather -->
@@ -38,7 +38,7 @@
                         >MARKHAM WEATHER</a
                     >
                 </div>
-                <div class="col-12 order-first order-lg-last infobox p-4 mb-2 mt-lg-2">
+                <div class="col-12 order-first order-lg-last infobox p-4 my-2">
                     <!-- Tweets -->
                     <a
                         class="twitter-timeline"
@@ -53,7 +53,7 @@
                     ></script>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 order-2 order-lg-last row m-0">
+            <div class="col-12 col-lg-6 order-2 order-lg-last d-flex flex-column">
                 <!-- Video/Announcements -->
                 <div
                     class="
@@ -63,12 +63,16 @@
                         align-items-center
                         infobox
                         p-4
-                        mt-2
-                        mb-lg-2
+                        my-2
                     "
                 >
                     <!-- Video -->
-                    <img src="assets/img/image.png" class="img-fluid" alt="placeholder" />
+                    <div class="video-container">
+                        <iframe
+                            src="https://www.youtube.com/embed/iik25wqIuFo"
+                            frameborder="0"
+                        ></iframe>
+                    </div>
                 </div>
                 <div class="col-12 order-first order-lg-last infobox p-4 mb-2 mt-lg-2">
                     <!-- Announcements -->
