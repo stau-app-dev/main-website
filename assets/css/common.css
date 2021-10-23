@@ -30,15 +30,15 @@ body {
 }
 
 .sidebar-button2 {
-    border-radius: 12px;
+    border-radius: 12px 0px 0px 12px;
     width: 100%;
     background-color: #8d122f !important;
 }
 
 .sidebar-button3 {
-    border-radius: 12px;
+    border-radius: 12px 0px 0px 12px;
     width: 100%;
-    background-color: #FFFFFF !important;
+    background-color: #ffffff !important;
 }
 
 .carousel .carousel-indicators button {
