@@ -17,14 +17,43 @@
     </head>
     <body>
         <div class="row m-0">
-            <div class="col-12 col-lg-2 order-first bg-white mr-0">
+            <div id="sidebar" class="col-12 col-lg-2 order-first text-center px-0 mb-3 mb-lg-0">
+                <svg
+                    id="toggleMobileMenu"
+                    class="text-white p-2 mt-2 mx-4 d-block d-lg-none text-start"
+                    style="width: 48px; cursor: pointer"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"
+                    ></path>
+                </svg>
+                <div id="mobileMenu" class="d-none d-lg-none flex-column">
+                    <a class="mobile-menu-link" href="/index.html">Home</a>
+                    <a class="mobile-menu-link" href="/links.html">Links</a>
+                    <a class="mobile-menu-link" href="/additionalinfo.html">Additional Info</a>
+                </div>
                 <!-- Sidebar -->
-                <div class="col-12 order-last order-lg-first bg-white p-4 mt-2 mb-lg-2 text-center">
-                    <div class="border sidebar-border p-2">
-                        <!-- Info -->
-                        <img src="./assets/img/stalogo.png" class="rounded mb-2" alt="..." />
-                        <h6 class="coloured-text text-center lh-sm mt-1" id="date">Today's Date</h6>
-                        <h3 class="coloured-text text-center lh-sm mb-4">Day 1</h3>
+                <div class="border sidebar-border p-2 mt-2 mx-4 bg-white">
+                    <!-- Info -->
+                    <img
+                        src="./assets/img/stalogo.png"
+                        class="rounded img-fluid"
+                        alt="St. Augustine CHS Logo"
+                    />
+                    <h6 class="coloured-text font-bold text-center lh-sm mt-1" id="date">
+                        Today's Date
+                    </h6>
+                    <h3 class="coloured-text font-bold text-center lh-sm mb-4">
+                        <strong>Day 1</strong>
+                    </h3>
+                    <div class="d-none d-lg-block">
                         <p class="coloured-text text-center lh-sm">
                             Address: <br />2188 Rodick Rd Markham, ON <br />L6C 1S3
                         </p>
@@ -35,24 +64,32 @@
                         <p class="coloured-text text-center lh-sm">Guidance: <br />905-887-6185</p>
                     </div>
                 </div>
-                <button class="button btn btn-danger mt-4 p-4 sidebar-button1" type="button">
-                    STAU Website
-                </button>
-                <a href="index.html" class="btn btn-light mt-5 p-4 sidebar-button3" type="button"
-                    >Home</a
-                >
-                <a
-                    href="links.html"
-                    class="btn btn-danger mt-1 p-4 border-0 sidebar-button2"
-                    type="button"
-                    >Links</a
-                >
-                <a
-                    href="additionalinfo.html"
-                    class="btn btn-light mt-1 p-4 sidebar-button3"
-                    type="button"
-                    >Additional Info</a
-                >
+                <div id="navbar" class="d-none d-lg-block">
+                    <a
+                        href="https://staugustinechs.ca/"
+                        class="btn btn-danger mt-4 p-4 sidebar-button1"
+                        type="button"
+                        >STAU Website</a
+                    >
+                    <a
+                        href="/index.html"
+                        class="btn btn-light mt-5 p-4 sidebar-button3"
+                        type="button"
+                        >Home</a
+                    >
+                    <a
+                        href="/links.html"
+                        class="btn btn-danger mt-1 p-4 border-0 sidebar-button2"
+                        type="button"
+                        >Links</a
+                    >
+                    <a
+                        href="/additionalinfo.html"
+                        class="btn btn-light mt-1 p-4 sidebar-button3"
+                        type="button"
+                        >Additional Info</a
+                    >
+                </div>
             </div>
             <div class="col-12 col-lg-10 order-last min-vh-100 d-flex flex-column">
                 <div class="row">
