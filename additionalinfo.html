@@ -1,132 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
-        />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link href="assets/css/common.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-        <title>Additional Info | St Augustine CHS App</title>
-    </head>
+    <link href="assets/css/common.css" rel="stylesheet" />
 
-    <body>
-        <div class="row m-0">
-            <div id="sidebar" class="col-12 col-lg-2 order-first text-center px-0 mb-3 mb-lg-0">
-                <svg
-                    id="toggleMobileMenu"
-                    class="text-white p-2 mt-2 mx-4 d-block d-lg-none text-start"
-                    style="width: 48px; cursor: pointer"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h16M4 18h16"
-                    ></path>
-                </svg>
-                <div id="mobileMenu" class="d-none d-lg-none flex-column">
-                    <a class="mobile-menu-link" href="/index.html">Home</a>
-                    <a class="mobile-menu-link" href="/links.html">Links</a>
-                    <a class="mobile-menu-link" href="/additionalinfo.html">Additional Info</a>
-                </div>
-                <!-- Sidebar -->
-                <div class="border sidebar-border p-2 mt-2 mx-4 bg-white">
-                    <!-- Info -->
-                    <img
-                        src="./assets/img/stalogo.png"
-                        class="rounded img-fluid"
-                        alt="St. Augustine CHS Logo"
-                    />
-                    <h6 class="coloured-text font-bold text-center lh-sm mt-1" id="date">
-                        Today's Date
-                    </h6>
-                    <h3 class="coloured-text font-bold text-center lh-sm mb-4">
-                        <strong>Day 1</strong>
-                    </h3>
-                    <div class="d-none d-lg-block">
-                        <p class="coloured-text text-center lh-sm">
-                            Address: <br />2188 Rodick Rd Markham, ON <br />L6C 1S3
-                        </p>
-                        <p class="coloured-text text-center lh-sm">Phone: <br />905-887-6171</p>
-                        <p class="coloured-text text-center lh-sm">
-                            Attendance: <br />905-887-7950
-                        </p>
-                        <p class="coloured-text text-center lh-sm">Guidance: <br />905-887-6185</p>
-                    </div>
-                </div>
-                <div id="navbar" class="d-none d-lg-block">
-                    <a
-                        href="https://staugustinechs.ca/"
-                        class="btn btn-danger mt-4 p-4 sidebar-button1"
-                        type="button"
-                        >STAU Website</a
-                    >
-                    <a
-                        href="/index.html"
-                        class="btn btn-light mt-5 p-4 sidebar-button3"
-                        type="button"
-                        >Home</a
-                    >
-                    <a
-                        href="/links.html"
-                        class="btn btn-light mt-1 p-4 sidebar-button3"
-                        type="button"
-                        >Links</a
-                    >
-                    <a
-                        href="/additionalinfo.html"
-                        class="btn btn-danger mt-1 p-4 border-0 sidebar-button2"
-                        type="button"
-                        >Additional Info</a
-                    >
+    <title>Additional Info | St Augustine CHS App</title>
+</head>
+
+<body>
+    <div class="row m-0">
+        <div id="sidebar" class="col-12 col-lg-2 order-first text-center px-0 mb-3 mb-lg-0">
+            <svg id="toggleMobileMenu" class="text-white p-2 mt-2 mx-4 d-block d-lg-none text-start"
+                style="width: 48px; cursor: pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+            <div id="mobileMenu" class="d-none d-lg-none flex-column">
+                <a class="mobile-menu-link" href="/index.html">Home</a>
+                <a class="mobile-menu-link" href="/links.html">Links</a>
+                <a class="mobile-menu-link" href="/additionalinfo.html">Additional Info</a>
+            </div>
+            <!-- Sidebar -->
+            <div class="border sidebar-border p-2 mt-2 mx-4 bg-white">
+                <!-- Info -->
+                <img src="./assets/img/stalogo.png" class="rounded img-fluid" alt="St. Augustine CHS Logo" />
+                <h6 class="coloured-text font-bold text-center lh-sm mt-1" id="date">
+                    Today's Date
+                </h6>
+                <h3 class="coloured-text font-bold text-center lh-sm mb-4">
+                    <strong>Day 1</strong>
+                </h3>
+                <div class="d-none d-lg-block">
+                    <p class="coloured-text text-center lh-sm">
+                        Address: <br />2188 Rodick Rd Markham, ON <br />L6C 1S3
+                    </p>
+                    <p class="coloured-text text-center lh-sm">Phone: <br />905-887-6171</p>
+                    <p class="coloured-text text-center lh-sm">
+                        Attendance: <br />905-887-7950
+                    </p>
+                    <p class="coloured-text text-center lh-sm">Guidance: <br />905-887-6185</p>
                 </div>
             </div>
-            <div
-                class="
+            <div id="navbar" class="d-none d-lg-block">
+                <a href="https://staugustinechs.ca/" class="btn btn-danger mt-4 p-4 sidebar-button1" type="button">STAU
+                    Website</a>
+                <a href="/index.html" class="btn btn-light mt-5 p-4 sidebar-button3" type="button">Home</a>
+                <a href="/links.html" class="btn btn-light mt-1 p-4 sidebar-button3" type="button">Links</a>
+                <a href="/additionalinfo.html" class="btn btn-danger mt-1 p-4 border-0 sidebar-button2"
+                    type="button">Additional Info</a>
+            </div>
+        </div>
+        <div class="
                     d-flex
                     flex-column
                     align-items-center
                     justify-content-center
                     col-12 col-lg-10
                     order-last
-                "
-            >
-                <a href="">
-                    <p class="additionalinfo-text1 my-3">
-                        St. Augustine Staff, click here to add a new announcement
-                    </p>
-                </a>
-                <a href="">
-                    <p class="additionalinfo-text1 my-3">
-                        Click here for the printable text version
-                    </p>
-                </a>
-                <a href="">
-                    <p class="additionalinfo-text1 my-3">Click here for the 1080p TV version</p>
-                </a>
-                <p class="additionalinfo-text2 my-3">
-                    Site Maintained by the St. Augustine CHS App Development Team
+                ">
+            <a href="">
+                <p class="additionalinfo-text1 my-3">
+                    St. Augustine Staff, click here to add a new announcement
                 </p>
-                <p class="additionalinfo-text2 my-3">St. Augustine CHS Technology</p>
-            </div>
+            </a>
+            <a href="">
+                <p class="additionalinfo-text1 my-3">
+                    Click here for the printable text version
+                </p>
+            </a>
+            <a href="">
+                <p class="additionalinfo-text1 my-3">Click here for the 1080p TV version</p>
+            </a>
+            <p class="additionalinfo-text2 my-3">
+                Site Maintained by the St. Augustine CHS App Development Team
+            </p>
+            <p class="additionalinfo-text2 my-3">St. Augustine CHS Technology</p>
         </div>
+    </div>
 
-        <script src="assets/js/script.js"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
