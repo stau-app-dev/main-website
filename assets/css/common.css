@@ -2,6 +2,10 @@ body {
     background: #8d122f;
 }
 
+.button {
+    width: 80%;
+}
+
 .infobox {
     background: white;
     border-radius: 15px;
@@ -9,6 +13,52 @@ body {
 
 .coloured-text {
     color: #8d122f;
+}
+
+.link:link {
+    text-decoration: none;
+}
+
+.link {
+    color: #8d122f !important;
+}
+
+h2.link-text {
+    font-weight: bold;
+}
+
+.link-container:hover {
+    opacity: 95%;
+}
+
+.announcements-text {
+    color: #8d122f;
+    font-weight: 600;
+}
+
+.additionalinfo-text1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+.additionalinfo-text2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar-text {
+    color: #8d122f;
+    font-weight: 500;
+    font-size: 13px;
 }
 
 .sidebar-border {
@@ -70,4 +120,11 @@ body {
     #sidebar {
         background: white;
     }
+}
+div#verse {
+    color: #8d122f !important;
+}
+
+#verse:hover {
+    opacity: 95%;
 }
