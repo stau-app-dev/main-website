@@ -7,15 +7,8 @@ body {
     border-radius: 15px;
 }
 
-.announcements-text {
+.coloured-text {
     color: #8d122f;
-    font-weight: 600;
-}
-
-.sidebar-text {
-    color: #8d122f;
-    font-weight: 500;
-    font-size: 13px;
 }
 
 .sidebar-border {
@@ -58,4 +51,23 @@ body {
 
 .carousel .carousel-inner .carousel-item.active {
     visibility: visible;
+}
+
+.mobile-menu-link {
+    color: white;
+}
+
+.mobile-menu-link:hover {
+    color: white;
+    opacity: 80%;
+}
+
+.mobile-menu-link:link {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    #sidebar {
+        background: white;
+    }
 }
