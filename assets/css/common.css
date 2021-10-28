@@ -2,8 +2,20 @@ body {
     background: #8d122f;
 }
 
-.button {
-    width: 80%;
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.text-white {
+    text-color: #ffffff !important;
+}
+
+.text-red {
+    text-color: #8d122f !important;
+}
+
+.bg-red {
+    background-color: #8d122f !important;
 }
 
 .infobox {
@@ -31,28 +43,17 @@ h2.link-text {
     opacity: 95%;
 }
 
-.announcements-text {
-    color: #8d122f;
-    font-weight: 600;
-}
-
-.additionalinfo-text1 {
+.additionalinfo-text {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
     text-align: center;
+    color: #ffffff;
+}
+
+.underline {
     text-decoration-line: underline;
-    color: #ffffff;
-}
-
-.additionalinfo-text2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: center;
-    color: #ffffff;
 }
 
 .sidebar-text {
@@ -67,21 +68,13 @@ h2.link-text {
     border-radius: 15px !important;
 }
 
-.sidebar-button1 {
+.sidebar-button-main {
     border-radius: 12px !important;
-    background-color: #8d122f !important;
 }
 
-.sidebar-button2 {
+.sidebar-button-nav {
     border-radius: 12px 0px 0px 12px;
     width: 100%;
-    background-color: #8d122f !important;
-}
-
-.sidebar-button3 {
-    border-radius: 12px 0px 0px 12px;
-    width: 100%;
-    background-color: #ffffff !important;
 }
 
 .carousel .carousel-indicators button {
@@ -120,11 +113,4 @@ h2.link-text {
     #sidebar {
         background: white;
     }
-}
-div#verse {
-    color: #8d122f !important;
-}
-
-#verse:hover {
-    opacity: 95%;
 }
