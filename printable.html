@@ -15,11 +15,64 @@
     </head>
 
     <body>
-        <!-- Announcements Table -->
+        <div class="d-flex flex-column justify-content-center text-center">
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <img src="assets/img/stalogo.png" alt="logo" width="64" height="64" />
+                <h6 class="display-6 ms-4">St. Augustine CHS</h6>
+            </div>
+            <div>
+                <p id="date" class="lead"></p>
+            </div>
+            <div class="text-center mt-3">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Team/Club</th>
+                            <th scope="col">Announcement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Student Council</td>
+                            <td>
+                                Tuesday, November 2nd is TITAN TUESDAY. Show your school spirit by
+                                wearing your approved team or spirit wear and by participating in
+                                SAC's lunch-time activity in the cafeteria.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Awesome announcement</td>
+                            <td>Submit this thing by tomorrow</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Repellendus quis cum quae, quod quam ea provident est quasi fugiat,
+                                ipsam adipisci harum ut beatae libero atque distinctio recusandae
+                                perspiciatis. Hic!
+                            </td>
+                            <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                                architecto cupiditate non, nam omnis facere iste aut consequatur
+                                nihil atque eligendi dignissimos fuga eum sint distinctio quis
+                                obcaecati neque corporis.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
+        <script>
+            var today = new Date();
+            var dateString = today.toDateString();
+            var dateElement = document.getElementById('date');
+            dateElement.innerText = dateString;
+        </script>
     </body>
 </html>
