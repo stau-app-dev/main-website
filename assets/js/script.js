@@ -10,3 +10,7 @@ toggleMobileMenu.addEventListener('click', function () {
     mobileMenu.classList.toggle('d-none');
     mobileMenu.classList.toggle('d-flex');
 });
+
+window.onload = function () {
+    document.getElementById('loading').style.display = 'none';
+};
