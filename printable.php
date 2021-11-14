@@ -1,3 +1,6 @@
+<?php
+    include "./inc/announcements.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,7 +27,7 @@
                 <p id="date" class="lead"></p>
             </div>
             <div class="text-center mt-3">
-                <table class="table">
+                <table class="table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col">Team/Club</th>
@@ -32,32 +35,18 @@
                         </tr>
                     </thead>
                     <tbody>
+                    <?php 
+                        $announcements_array = getAnnounceArray();
+                        foreach ($announcements_array as $announcement) {
+                            $announcement_parts = explode(" - ", $announcement, 2);
+                    ?>
                         <tr>
-                            <td>Student Council</td>
-                            <td>
-                                Tuesday, November 2nd is TITAN TUESDAY. Show your school spirit by
-                                wearing your approved team or spirit wear and by participating in
-                                SAC's lunch-time activity in the cafeteria.
-                            </td>
+                            <td><?php echo $announcement_parts[0] ?></td>
+                            <td><?php echo $announcement_parts[1] ?></td>
                         </tr>
-                        <tr>
-                            <td>Awesome announcement</td>
-                            <td>Submit this thing by tomorrow</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                                Repellendus quis cum quae, quod quam ea provident est quasi fugiat,
-                                ipsam adipisci harum ut beatae libero atque distinctio recusandae
-                                perspiciatis. Hic!
-                            </td>
-                            <td>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                                architecto cupiditate non, nam omnis facere iste aut consequatur
-                                nihil atque eligendi dignissimos fuga eum sint distinctio quis
-                                obcaecati neque corporis.
-                            </td>
-                        </tr>
+                    <?php
+                        }
+                    ?>
                     </tbody>
                 </table>
             </div>
@@ -67,6 +56,7 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
+            async defer
         ></script>
         <script>
             var today = new Date();
