@@ -109,6 +109,10 @@ h2.link-text {
     color: white;
 }
 
+.social-media-link {
+    color: #8d122f !important;
+}
+
 #loading {
     position: fixed;
     display: flex;
