@@ -35,7 +35,7 @@
                         href="https://forecast7.com/en/43d86n79d34/markham/"
                         data-label_1="MARKHAM"
                         data-label_2="WEATHER"
-                        data-theme="original"
+                        data-theme="pure"
                         >MARKHAM WEATHER</a
                     >
                 </div>
