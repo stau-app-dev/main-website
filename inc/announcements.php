@@ -16,6 +16,9 @@ function getAnnounceArray(){
             array_push($announcements_array, $row["Groupteam"]." - ".$row["Announce"]);
 		}
     }
+	if (empty($announcements_array)) {
+		array_push($announcements_array, "No announcements today!");
+	}
 	
 	return $announcements_array;	
 }
