@@ -101,19 +101,18 @@
                         <div class="col-12 link-danger link p-4 my-2">
                             <h2 class="link-text text-center">Socials</h2>
                         </div>
-                            <a href="https://twitter.com/STAUpdates" class="social-media-link">
-                                <div class="d-flex flex-row justify-content-evenly align-items-center">
-                                    <i class="fa fa-twitter link-container" style="font-size: 36px;cursor:pointer;"></i>
-                                    <h3>Twitter</h3>
-                                </div>
-                            </a>
-                            <a href="https://www.instagram.com/sachsapp/" class="social-media-link">
-                                <div class="d-flex flex-row justify-content-evenly align-items-center">
-                                    <i class="fa fa-instagram" style="font-size: 36px;cursor:pointer;"></i>
-                                    <h3>Instagram</h3>
-                                </div>
-                            </a>
-                        </div>
+                        <a href="https://twitter.com/STAUpdates" class="coloured-text link">
+                            <div class="d-flex flex-row justify-content-evenly align-items-center">
+                                <i class="fa fa-twitter link-container" style="font-size: 36px;cursor:pointer;"></i>
+                                <h3>Twitter</h3>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/sachsapp/" class="coloured-text link">
+                            <div class="d-flex flex-row justify-content-evenly align-items-center">
+                                <i class="fa fa-instagram" style="font-size: 36px;cursor:pointer;"></i>
+                                <h3>Instagram</h3>
+                            </div>
+                        </a>
                 </div>
                 <div class="row flex-grow-1">
                     <div class="col-12 d-flex flex-column fs-3">

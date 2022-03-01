@@ -65,7 +65,7 @@
                     <!-- Video -->
                     <div class="ratio ratio-16x9">
                         <iframe
-                            src="https://www.youtube.com/embed/iik25wqIuFo"
+                            src="https://www.youtube.com/embed/videoseries?list=PLG1HPxuAsDSkrBRkUSkOZqZzNv98hgCFV"
                             frameborder="0"
                         ></iframe>
                     </div>
