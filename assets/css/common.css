@@ -136,6 +136,12 @@ h2.link-text {
     animation: spin 2s linear infinite;
 }
 
+#quote a {
+    color: #8d122f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);

@@ -117,7 +117,9 @@
                 <div class="row flex-grow-1">
                     <div class="col-12 d-flex flex-column fs-3">
                         <div
+                            id="quote"
                             class="
+                                text-red
                                 col-12
                                 infobox
                                 p-4
