@@ -1,3 +1,6 @@
+<?php
+    include "./inc/day.php";
+?>
 <div id="sidebar" class="col-12 col-lg-2 order-first text-center px-0 mb-3 mb-lg-0">
     <svg
         id="toggleMobileMenu"
@@ -32,7 +35,7 @@
             Today's Date
         </h6>
         <h3 class="coloured-text font-bold text-center lh-sm mb-4">
-            <strong>Day 1</strong>
+            <strong>Day <?php echo getDay(); ?></strong>
         </h3>
         <div class="d-none d-lg-block">
             <p class="coloured-text text-center lh-sm">
