@@ -28,14 +28,14 @@
                     <div class="col-12 col-lg-9">
                         <div class="row mt-3">
                             <div class="col-6 link-container">
-                                <a href="https://stau.ycdsb.ca/our-school/staff-directory/" class="link-danger link">
+                                <a href="https://stau.ycdsb.ca/our-school/staff-directory/" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Staff Directory</h2>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-6 link-contianer">
-                                <a href="https://www.ycdsb.ca/" class="link-danger link">
+                            <div class="col-6 link-container">
+                                <a href="https://www.ycdsb.ca/" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">YCDSB Website</h2>
                                     </div>
@@ -46,7 +46,7 @@
                             <div class="col-6 link-container">
                                 <a
                                     href="https://stau.ycdsb.ca/our-school/calendar/"
-                                    class="link-danger link"
+                                    class="link text-red"
                                 >
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Events/Calendar</h2>
@@ -54,7 +54,7 @@
                                 </a>
                             </div>
                             <div class="col-6 link-container">
-                                <a href="https://sites.google.com/ycdsbk12.ca/staulibrary" class="link-danger link">
+                                <a href="https://sites.google.com/ycdsbk12.ca/staulibrary" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Library Website</h2>
                                     </div>
@@ -63,14 +63,14 @@
                         </div>
                         <div class="row">
                             <div class="col-6 link-container">
-                                <a href="https://titantimes.live/" class="link-danger link">
+                                <a href="https://titantimes.live/" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Titan Times</h2>
                                     </div>
                                 </a>
                             </div>
                             <div class="col-6 link-container">
-                                <a href="" class="link-danger link">
+                                <a href="" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Guidance Website</h2>
                                     </div>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col-6 link-container">
-                                <a href="" class="link-danger link">
+                                <a href="" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Daily Screening</h2>
                                     </div>
@@ -88,7 +88,7 @@
                             <div class="col-6 link-container">
                                 <a
                                     href="https://app.staugustinechs.ca./index.html"
-                                    class="link-danger link"
+                                    class="link text-red"
                                 >
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">STA App Website</h2>
@@ -98,16 +98,16 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 d-flex flex-column my-3 infobox">
-                        <div class="col-12 link-danger link p-4 my-2">
+                        <div class="col-12 text-red p-4 my-2">
                             <h2 class="link-text text-center">Socials</h2>
                         </div>
-                        <a href="https://twitter.com/STAUpdates" class="coloured-text link">
+                        <a href="https://twitter.com/STAUpdates" class="link text-red">
                             <div class="d-flex flex-row justify-content-evenly align-items-center">
                                 <i class="fa fa-twitter link-container" style="font-size: 36px;cursor:pointer;"></i>
                                 <h3>Twitter</h3>
                             </div>
                         </a>
-                        <a href="https://www.instagram.com/sachsapp/" class="coloured-text link">
+                        <a href="https://www.instagram.com/sachsapp/" class="link text-red">
                             <div class="d-flex flex-row justify-content-evenly align-items-center">
                                 <i class="fa fa-instagram" style="font-size: 36px;cursor:pointer;"></i>
                                 <h3>Instagram</h3>
@@ -130,17 +130,7 @@
                             "
                         >
                             <script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
-                            <script src="https://www.biblegateway.com/votd/get/?format=json&version=NIV&callback=BG.votdWriteCallback"></script>
-                            <!-- alternative for no javascript -->
-                            <noscript>
-                                <iframe
-                                    id="Verse"
-                                    framespacing="0"
-                                    frameborder="no"
-                                    src="https://www.biblegateway.com/votd/get/?format=html&version=NIV"
-                                    >View Verse of the Day</iframe
-                                >
-                            </noscript>
+                            <script src="https://www.biblegateway.com/votd/get/?format=json&version=NRSV&callback=BG.votdWriteCallback"></script>
                         </div>
                     </div>
                 </div>

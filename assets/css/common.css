@@ -2,20 +2,24 @@ body {
     background: #8d122f;
 }
 
+a:hover {
+    opacity: 0.9;
+}
+
 .bg-white {
-    background-color: #ffffff !important;
+    background-color: #ffffff;
 }
 
 .text-white {
-    text-color: #ffffff !important;
+    color: #ffffff;
 }
 
 .text-red {
-    text-color: #8d122f !important;
+    color: #8d122f;
 }
 
 .bg-red {
-    background-color: #8d122f !important;
+    background-color: #8d122f;
 }
 
 .infobox {
@@ -23,16 +27,11 @@ body {
     border-radius: 15px;
 }
 
-.coloured-text {
+.link:hover {
     color: #8d122f;
 }
-
 .link:link {
     text-decoration: none;
-}
-
-.link {
-    color: #8d122f !important;
 }
 
 h2.link-text {
@@ -49,6 +48,10 @@ h2.link-text {
     font-size: 36px;
     line-height: 54px;
     text-align: center;
+    color: #ffffff;
+}
+
+.additionalinfo-text:hover {
     color: #ffffff;
 }
 

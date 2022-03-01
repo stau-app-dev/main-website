@@ -31,21 +31,21 @@
             class="rounded img-fluid"
             alt="St. Augustine CHS Logo"
         />
-        <h6 class="coloured-text font-bold text-center lh-sm mt-1" id="date">
+        <h6 class="text-red font-bold text-center lh-sm mt-1" id="date">
             Today's Date
         </h6>
-        <h3 class="coloured-text font-bold text-center lh-sm mb-4">
+        <h3 class="text-red font-bold text-center lh-sm mb-4">
             <strong>Day <?php echo getDay(); ?></strong>
         </h3>
         <div class="d-none d-lg-block">
-            <p class="coloured-text text-center lh-sm">
+            <p class="text-red text-center lh-sm">
                 Address: <br />2188 Rodick Rd Markham, ON <br />L6C 1S3
             </p>
-            <p class="coloured-text text-center lh-sm">Phone: <br />905-887-6171</p>
-            <p class="coloured-text text-center lh-sm">
+            <p class="text-red text-center lh-sm">Phone: <br />905-887-6171</p>
+            <p class="text-red text-center lh-sm">
                 Attendance: <br />905-887-7950
             </p>
-            <p class="coloured-text text-center lh-sm">Guidance: <br />905-887-6185</p>
+            <p class="text-red text-center lh-sm">Guidance: <br />905-887-6185</p>
         </div>
     </div>
     <div id="navbar" class="d-none d-lg-block">
