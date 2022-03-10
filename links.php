@@ -70,7 +70,7 @@
                                 </a>
                             </div>
                             <div class="col-6 link-container">
-                                <a href="" class="link text-red">
+                                <a href="https://sites.google.com/ycdsbk12.ca/stauguidance" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Guidance Website</h2>
                                     </div>
@@ -79,7 +79,7 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col-6 link-container">
-                                <a href="" class="link text-red">
+                                <a href="https://covid-19.ontario.ca/school-screening/" class="link text-red">
                                     <div class="col-12 infobox p-4 my-2">
                                         <h2 class="link-text text-center">Daily Screening</h2>
                                     </div>
@@ -87,7 +87,7 @@
                             </div>
                             <div class="col-6 link-container">
                                 <a
-                                    href="https://app.staugustinechs.ca./index.html"
+                                    href="https://app.staugustinechs.ca"
                                     class="link text-red"
                                 >
                                     <div class="col-12 infobox p-4 my-2">
