@@ -1,1 +1,1 @@
-# stau-app-website
+# St. Augustine CHS Website Revamp
