@@ -1,0 +1,5 @@
+.announcement-text {
+    font-weight: 600;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}

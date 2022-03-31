@@ -16,6 +16,7 @@
         />
 
         <link href="assets/css/common.css" rel="stylesheet" />
+        <link href="assets/css/index.css" rel="stylesheet" />
 
         <title>Home | St Augustine CHS App</title>
     </head>
@@ -111,7 +112,7 @@
                                 $first = array_shift($announcements_array);
                             ?>
                                 <div class="carousel-item active px-5 d-block">
-                                    <h3 class="text-red fs-3" style="font-weight: 600">
+                                    <h3 class="text-red fs-3 announcement-text">
                                     <?php echo $first ?>
                                     </h3>
                                 </div>
@@ -119,7 +120,7 @@
                                 foreach ($announcements_array as $announcement) {
                             ?>
                                 <div class="carousel-item px-5 d-block">
-                                    <h3 class="text-red fs-3" style="font-weight: 600">
+                                    <h3 class="text-red fs-3 announcement-text">
                                     <?php echo $announcement ?>
                                     </h3>
                                 </div>
