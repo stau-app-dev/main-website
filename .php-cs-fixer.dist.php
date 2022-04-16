@@ -5,7 +5,7 @@ return $config
         '@PhpCsFixer' => true,
     ])
     ->setFinder(PhpCsFixer\Finder::create()
-        ->exclude('vendor')
-        ->in(__DIR__)
+        ->exclude('src/vendor')
+        ->in('src')
     )
 ;
