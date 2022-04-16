@@ -1,0 +1,11 @@
+<?php
+$config = new PhpCsFixer\Config();
+return $config
+    ->setRules([
+        '@PhpCsFixer' => true,
+    ])
+    ->setFinder(PhpCsFixer\Finder::create()
+        ->exclude('vendor')
+        ->in(__DIR__)
+    )
+;
