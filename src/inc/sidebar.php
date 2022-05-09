@@ -34,8 +34,6 @@
         </div>
     </div>
     <div id="navbar" class="d-none d-lg-block">
-        <a href="https://staugustinechs.ca/" class="btn mt-4 p-4 sidebar-button-main text-white bg-red"
-            type="button">STAU Website</a>
         <?php
             $base = basename($_SERVER['PHP_SELF']);
         ?>
