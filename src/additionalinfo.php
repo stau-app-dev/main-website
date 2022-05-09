@@ -25,7 +25,7 @@
                 href="https://docs.google.com/a/ycdsb.ca/forms/d/1Q1-u5FjfA-x6L5ZMtVIbELO8vZMx-5h5nBdDQoZzi04/viewform">
                 St. Augustine Staff, click here to add a new announcement
             </a>
-            <a class="additionalinfo-text underline my-3" href="https://staugustinechs.ca/sta2021/printable">
+            <a class="additionalinfo-text underline my-3" href="./printable">
                 Click here to view a printable version of the announcements
             </a>
             <p class="additionalinfo-text my-3">
