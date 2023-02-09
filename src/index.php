@@ -28,8 +28,8 @@
             </div>
             <div class="col-12 order-first order-lg-last infobox p-4 my-2">
                 <!-- Tweets -->
-                <a class="twitter-timeline" data-height="500"
-                    href="https://twitter.com/STAUpdates?ref_src=twsrc%5Etfw">Tweets by STAUpdates</a>
+                <a class="twitter-timeline" href="https://twitter.com/STAUpdates?ref_src=twsrc%5Etfw">Tweets by STAUpdates</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
         <div class="col-12 col-lg-6 order-2 order-lg-last d-flex flex-column">
@@ -100,7 +100,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
         async defer></script>
-    <script src="https://platform.twitter.com/widgets.js" charset="utf-8" async defer></script>
     <script>
         !(function(d, s, id) {
             var js,
